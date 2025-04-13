@@ -1,0 +1,16 @@
+{
+  "name": "multienvtest",
+  "version": "1.0.0",
+  "description": "Multi Environment Test - Cypress",
+  "main": "index.js",
+  "scripts": {
+   "cypress-dev-open": "npx cypress open --config-file dev.config.js",
+   "cypress-stage-open": "npx cypress open --config-file staging.config.js",
+    "cypress-prod-open": "npx cypress open --config-file prod.config.js"
+  },
+  "author": "Chong S. Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.0"
+  }
+}
